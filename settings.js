@@ -1,14 +1,16 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : KANGO-XMD 
-// @author : Hector 
-// @telegram : http://t.me/official_kango
-// @github : OfficialKango
-// @whatsapp : +233509977126
+// @project_name : AFT-LUFA
+// @author : DINUWA
+// @telegram : http://t.me/AFTLUFA
+// @telegram : http://t.me/AFTLUFA 
+// @whatsapp : +94757513753
 
 //----------------------[ KANGO-XMD ]----------------------//
 
-const fs = require('fs')
+
+
+con -- = require('fs')
 const { color } = require('./kango/color')
 if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
@@ -20,25 +22,25 @@ global.SESSION_ID = process.env.SESSION_ID || ''
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'KANGO-XMD' 
+global.botname = process.env.BOT_NAME || 'DINUWA-X'
 
-//-----------------[ OWNER NUMBER ]------------------//
+//-----------------[ OWNER NUMBER ]-----------
 
-global.ownernumber = process.env.OWNER_NUMBER || '233509977126' 
+global.ownernumber = process.env.OWNER_NUMBER || '94757513753' 
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['', ''];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Hector Manuel' 
+global.ownername = process.env.OWNER_NAME || 'DINUWA' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "KANGO-XMD" 
+global.packname = process.env.STICKER_PACK_NAME || "AFT-XMD" 
 
 //--------------[ COUNTRY TIMEZONE ]------------//
 
@@ -49,20 +51,16 @@ global.timezones = 'Africa/Accra';  // Set this to you timezone
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "Hector" 
+global.author = process.env.STICKER_AUTHOR_NAME || "AFTLUFA" 
 
-//----------------[ GITHUB DATABASE ]-----------------//
-
-global.dbToken = process.env.GITHUB_TOKEN || "";
-
-
+cctctoctorctor"------------[ GITHUB DATABASE ]------------global.dbToken = process.env.GITHUB_TOKEN ""
 //-----------------[ CONTEXT LINK ]--------------------//
 
-global.plink = process.env.PLINK || "https://youtube.com/@official_manuel"
+global.plink = process.env.PLINK || ""
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "> ©KANGO-XMD"
+global.wm = process.env.GL_WM || "> AFTLufa"
 
 //---------------------[ REPLIES ]-----------------------//
 
